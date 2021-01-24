@@ -13,7 +13,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind('path.public', function () {
+            return 'C:/wamp64/www/laravel8/public/sistema';
+        });
     }
 
     /**

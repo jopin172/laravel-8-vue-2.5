@@ -19,5 +19,3 @@ if ($uri !== '/' && file_exists(__DIR__.'/public/sistema'.$uri)) {
 }
 
 require_once __DIR__.'/public/sistema/index.php';
-
-// $user = 'muestra_jopin', $clave = 'g5nOVPyPQ', $base = 'muestra_johan'

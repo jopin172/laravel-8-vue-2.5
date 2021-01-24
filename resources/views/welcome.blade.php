@@ -12,6 +12,6 @@
         <div id="app">
             <dashboart></dashboart>
         </div>
-        <script src="{{ mix('js/app.js') }}"></script>
+        <script src="{{ mix('sistema/js/app.js') }}"></script>
     </body>
 </html>
